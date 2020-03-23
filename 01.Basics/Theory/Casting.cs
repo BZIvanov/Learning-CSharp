@@ -11,7 +11,7 @@ namespace LearnBasics
             byte b = (byte) a;
             Console.WriteLine(b);
 
-            // this is how we convert with Convert method
+            // this is how we convert with Convert method, because here we have incompatible types of number and text
             string nums = "279";
             int myValue = Convert.ToInt32(nums);
             Console.WriteLine(myValue);
