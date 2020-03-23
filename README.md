@@ -16,7 +16,7 @@ When installing from the *Workloads* select **.Net desktop development**.
 
 ### namespace
 
-- namespace - it is collection of classes and we can have more multiple namespaces.
+- namespace - it is collection of classes and we can have multiple namespaces.
 
 - namespace - we have access to all our classes in our namespace, but if we want access to another classes which are part of another namespace we need to import them. We can do that by uisng **using** key word and then the name of the namespace.
 
@@ -34,15 +34,17 @@ When installing from the *Workloads* select **.Net desktop development**.
 
 ### methods
 
+- the keyword before the method name is the return type of the method
+
 - Main - main method is the starting point of an application. To call a method from the same class in the main method, that method has to be static.
 
-- static - we can access static method directly from the class without creating an instance of the class.
+- static - we can access static method directly from the class without creating an instance/object of the class.
 
 - void - void keyword means our method doesn't return anything it just contains some peace of code.
 
 ### Arrays
 
-- Array - it has fixed size
+- Array - it has fixed size. If we create an int array for example and we don't specify values, the array will be filled with 0's, boolean array will be filled with false's and so on.
 
 ### Lists
 

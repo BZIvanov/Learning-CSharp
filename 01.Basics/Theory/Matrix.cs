@@ -19,6 +19,8 @@ namespace LearnBasics
 
             // Jagged array - non-rectangular
             var jArray = new int[2][];
+            jArray[0] = new int[3];
+            jArray[1] = new int[5];
         }
     }
 }
