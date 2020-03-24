@@ -28,6 +28,8 @@ When installing from the *Workloads* select **.Net desktop development**.
 
 - public - placing public before the class keyword will make the class accessible anywhere in our application
 
+- internal - accessible only from the same assembly
+
 ### struct
 
 - structures are similar to classes, they are used for more simple data types. For example **int** is of type struct
@@ -37,6 +39,10 @@ When installing from the *Workloads* select **.Net desktop development**.
 - the keyword before the method name is the return type of the method
 
 - Main - main method is the starting point of an application. To call a method from the same class in the main method, that method has to be static.
+
+- private - usable only within the class
+
+- protected - accessible only from the class and its derived classes
 
 - static - we can access static method directly from the class without creating an instance/object of the class.
 

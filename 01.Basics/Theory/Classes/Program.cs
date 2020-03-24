@@ -8,10 +8,10 @@ namespace LearnBasics
     {
         static void Main(string[] args)
         {
-            var qnko = new Person();
-            qnko.FirstName = "Qnko";
-            qnko.LastName = "Ivanov";
-            qnko.Introduce();
+            var person = new Person();
+            person.FirstName = "Qnko";
+            person.LastName = "Ivanov";
+            person.Introduce();
 
             Calculator calc = new Calculator();
             var result = calc.Add(2, 5);

@@ -4,8 +4,8 @@ namespace IntermediateLevel
 {
     public class Person
     {
-        public string Name { get; set; }
         // we can define getter and setter like this for shorter syntax
+        public string Name { get; set; }
         public DateTime Birthdate { get; private set; }
 
         // we set birthdate in the counstructor, because our set method is private so we can access it only once here
