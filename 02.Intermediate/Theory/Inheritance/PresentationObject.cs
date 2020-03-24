@@ -1,6 +1,6 @@
 using System;
 
-namespace LearnBasics
+namespace IntermediateLevel
 {
     public class PresentationObject
     {
