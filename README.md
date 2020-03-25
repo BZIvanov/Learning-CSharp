@@ -20,6 +20,8 @@ When installing from the *Workloads* select **.Net desktop development**.
 
 - namespace - we have access to all our classes in our namespace, but if we want access to another classes which are part of another namespace we need to import them. We can do that by uisng **using** key word and then the name of the namespace.
 
+- adding new namespace - in VS right-click *your project* > **Add** > **New Project** > from the popup select **Class Library**
+
 ### classes
 
 - constructor - to be valid constructor it needs to be named exactly the same as the class. And return type is not specified.
@@ -29,6 +31,8 @@ When installing from the *Workloads* select **.Net desktop development**.
 - public - placing public before the class keyword will make the class accessible anywhere in our application
 
 - internal - accessible only from the same assembly
+
+- abstract - abstract classes can not be instantiated.
 
 ### struct
 
@@ -47,6 +51,8 @@ When installing from the *Workloads* select **.Net desktop development**.
 - static - we can access static method directly from the class without creating an instance/object of the class.
 
 - void - void keyword means our method doesn't return anything it just contains some peace of code.
+
+- abstract - if we have an abstract method the class holding the method should be also abstract. Abstract method should not have any implementation. The idea of abstract methods is too require some design for the app, but to leave the exact implementation of the logic to the derived class/method
 
 ### Arrays
 
