@@ -14,6 +14,8 @@ When installing from the *Workloads* select **.Net desktop development**.
 
 - we can not use key words as variable names. For example *int* keyword, but if we really need that we can use int as variable name by prefixing it with *@* so it will be **@int**
 
+- unit testing - to create unit testing right-click your project > Add > New Project > NUnit Test Project(.Net Core) and click Next
+
 ### namespace
 
 - namespace - it is collection of classes and we can have multiple namespaces.
