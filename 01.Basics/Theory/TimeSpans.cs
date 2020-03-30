@@ -2,7 +2,7 @@ using System;
 
 namespace LearnBasics
 {
-    class Program
+    class TimeSpans
     {
         static void Main(string[] args)
         {

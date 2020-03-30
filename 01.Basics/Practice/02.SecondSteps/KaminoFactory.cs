@@ -22,6 +22,7 @@ namespace SecondSteps
             while (input != "Clone them!")
             {
                 index++;
+                // Select returns IEnumerable so we need to explicitly convert it to array
                 nums = input.Split(new char[] { '!', ' ' }, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
 
                 int[] parameters = GetInfo(nums);
