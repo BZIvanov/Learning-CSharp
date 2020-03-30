@@ -4,6 +4,8 @@
 
 When installing from the *Workloads* select **.Net desktop development**.
 
+Also install **ASP.NET and web development** for building web applications.
+
 ## Basics
 
 - running your application - use *ctrl + F5*. For console application you will see the result in a popup.
@@ -63,3 +65,15 @@ When installing from the *Workloads* select **.Net desktop development**.
 ### Lists
 
 - List similar to arrays but size is not fixed, we can add or remove elements.
+
+### Stack
+
+- Working on the principle LIFO
+
+### Queue
+
+- Working on the principle FIFO
+
+### **out** keyword
+
+- With **out** keyword we can get more than one thing from a method, otherwise we can only one. The logic is the with **out** followed by a variable name we can save something in that variable while at the same time the method is returning something else.
