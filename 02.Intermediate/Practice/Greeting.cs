@@ -19,7 +19,7 @@ namespace IntermediateLevel
             return person;
         }
     }
-    class Program
+    class Greeting
     {
         static void Main(string[] args)
         {
