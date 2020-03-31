@@ -34,9 +34,11 @@ Also install **ASP.NET and web development** for building web applications.
 
 - public - placing public before the class keyword will make the class accessible anywhere in our application
 
-- internal - accessible only from the same assembly
+- internal - accessible only from the same assembly. If nothing specified, classes by default are internal
 
 - abstract - abstract classes can not be instantiated.
+
+Fields and methods and everything the class is holding, in terms of terminology is called members.
 
 ### struct
 
