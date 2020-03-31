@@ -4,8 +4,7 @@ namespace IntermediateLevel
 {
     public class Person
     {
-        // we can define getter and setter like this for shorter syntax
-        public string Name { get; set; }
+        // private set means, that we can only set the value in the constructor or another method.
         public DateTime Birthdate { get; private set; }
 
         // we set birthdate in the counstructor, because our set method is private so we can access it only once here
@@ -14,7 +13,7 @@ namespace IntermediateLevel
             Birthdate = birthdate;
         }
 
-        // for this method we dont have a setter, because we dont need one
+        // for this method we dont have a setter, because we dont need one. If we have only get and not set, only the constructor can set value for this property
         public int Age
         {
             get
