@@ -18,6 +18,7 @@ namespace IntermediateLevel
 
     public class AnotherArrayCreator<T>
     {
+        // we are not required to use only one and the same type for class and method, they could be 2 different
         public static T[] Create(int length, T item)
         {
             var arr = new T[length];
@@ -28,7 +29,7 @@ namespace IntermediateLevel
             return arr;
         }
     }
-    class Program 
+    class BasicExample 
     {
         static void Main(string[] args)
         {

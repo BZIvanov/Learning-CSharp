@@ -79,3 +79,13 @@ Fields and methods and everything the class is holding, in terms of terminology 
 ### **out** keyword
 
 - With **out** keyword we can get more than one thing from a method, otherwise we can only one. The logic is the with **out** followed by a variable name we can save something in that variable while at the same time the method is returning something else.
+
+### interfaces
+
+Interfaces are similar to classes, but they have only definition without implementation, meaning that they only describe how something should look like.
+
+One big benefit of using interface is that usually we can have some List with type of Cat class, which is kind of limitation to us. With interfaces we can use List with type of Animal class, where we can have different types of Animals, not only Cat.
+
+### IEnumerable
+
+With the help of this interface we can turn a class to something which can be used in foreach loop.
