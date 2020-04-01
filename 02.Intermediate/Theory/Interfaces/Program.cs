@@ -46,11 +46,14 @@ namespace IntermediateLevel
             Console.WriteLine(message);
         }
     }
+
     public interface ILogger
     {
+        // here we dont use modifiers like public or private etc. Everything is public
         void LogError(string message);
         void LogInfo(string message);
     }
+
     public class DbMigrator
     {
         private readonly ILogger _logger;
@@ -66,6 +69,7 @@ namespace IntermediateLevel
             _logger.LogInfo("Migration finished at " + DateTime.Now);
         }
     }
+
     class Program
     {
         static void Main(string[] args)
