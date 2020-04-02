@@ -36,7 +36,9 @@ Also install **ASP.NET and web development** for building web applications.
 
 - internal - accessible only from the same assembly. If nothing specified, classes by default are internal
 
-- abstract - abstract classes can not be instantiated.
+- abstract - abstract classes can not be instantiated. It is the opposite of sealed, meaning that we can inherit from it, but can not instantiate it.
+
+- sealed - this keyword can be used only on classes. It will disallow us to inherit from that class.
 
 Fields and methods and everything the class is holding, in terms of terminology is called members.
 
@@ -50,9 +52,11 @@ Fields and methods and everything the class is holding, in terms of terminology 
 
 - Main - main method is the starting point of an application. To call a method from the same class in the main method, that method has to be static.
 
+- virtual - if we want to make a method overridable in the derived class we need to specify, that the method is virtual.
+
 - private - usable only within the class
 
-- protected - accessible only from the class and its derived classes
+- protected - accessible only from the class and its derived classes. But it will be still not accessible by instances of the class
 
 - static - we can access static method directly from the class without creating an instance/object of the class.
 

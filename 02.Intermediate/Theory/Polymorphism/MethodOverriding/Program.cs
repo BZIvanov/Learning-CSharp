@@ -32,7 +32,7 @@ namespace IntermediateLevel
         public int Height { get; set; }
         public Position Position { get; set; }
 
-        // virtual will make this method overridable in derived classes
+        // virtual will make this method overridable in derived classes. Without it, the method is not overridable
         public virtual void Draw()
         {
 
