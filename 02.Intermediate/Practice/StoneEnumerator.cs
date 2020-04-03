@@ -6,6 +6,7 @@ namespace IntermediateLevel
 {
     public class Lake : IEnumerable<int>
     {
+        // readonly variable value can not be changed, but the constructor is exception
         private readonly int[] stones;
 
         public Lake(params int[] stones)
