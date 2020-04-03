@@ -8,6 +8,8 @@ Also install **ASP.NET and web development** for building web applications.
 
 ## Basics
 
+- under our project we can find Dependencies file. It looks as an xml file where we can find dependencies to other for example class libraries, that we have included in our project.
+
 - running your application - use *ctrl + F5*. For console application you will see the result in a popup.
 
 - running in a debug mode - use *F5*
@@ -36,7 +38,7 @@ Also install **ASP.NET and web development** for building web applications.
 
 - internal - accessible only from the same assembly. If nothing specified, classes by default are internal
 
-- abstract - abstract classes can not be instantiated. It is the opposite of sealed, meaning that we can inherit from it, but can not instantiate it.
+- abstract - abstract classes can not be instantiated (with **new**). It is the opposite of sealed, meaning that we can inherit from it, but can not instantiate it.
 
 - sealed - this keyword can be used only on classes. It will disallow us to inherit from that class.
 

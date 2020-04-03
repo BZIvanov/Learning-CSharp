@@ -1,3 +1,5 @@
+## Abstraction
+
 ## Inheritance
 
 With *Inheritance* we can easly reuse code, because the derived classes receive all Base class members (fields, properties, methods etc.).
@@ -11,3 +13,10 @@ Example
     - **Cat** - Derived class, Child class, Subclass
     - **Dog** - Derived class, Child class, Subclass
 
+## Encapsulation
+
+Encapsulation is focused on hiding implementation.
+
+We should write all our class fields as private and then use them in constructor or with getter and setters.
+
+## Polymorphism
